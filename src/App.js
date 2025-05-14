@@ -1,24 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+//import NumberCount from './pages/step01/Test';
+//import Hello from './pages/step01/Test2';
+
+import Footer from './pages/step02/Footer';
+import Header from './pages/step02/Header';
+import Main from './pages/step02/Main';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <>
+    {/*<NumberCount />
+    <Hello />
+    */}
+
+    <Header />
+    <hr />
+    <Main />
+    <hr />
+    <Footer />
+
+    </>
   );
 }
 
