@@ -1,4 +1,4 @@
- import ItemList from "./Items"
+ import ItemList from "./items"
 
 export default function FilteredCommandList() {
   const comments = [
