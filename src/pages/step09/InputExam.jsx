@@ -2,11 +2,13 @@ import './inputExam.css'
 
 export default function InputExam(){
     return(
-        //className =>css에서 class를 뜻한다.
-        <div className="class">
+        // className => CSS 에서 class 뜻한다.
+        <div className="center">
             <input onFocus={()=>console.log("onFocus")}  
                    onBlur={()=>console.log("onBlur")}  
             /><br /><br />            
         </div>
+
+        
     );
 }

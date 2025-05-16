@@ -19,7 +19,7 @@ import Event01 from "../step08/Event01";
 import Event02 from "../step08/Event02";
 import Event03 from "../step08/Event03";
 import Event04 from "../step08/Event04";
-import InputExam from "../step09/inputExam";
+import InputExam from "../step09/InputExam";
 function Main(props){
     return(
         // 태그의 첫글자가 소문자이면 일반적인 html 태그, 대문자이면 컴포넌트
