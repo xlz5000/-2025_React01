@@ -1,22 +1,10 @@
-export default funtcion Items(props){
-
+export default function Items(props){
     return(
         <>
             <ul>
-                <li>이름:</li>
-                <li>내용:</li>
-            
-            
-            
+                <li>이름 : {props.name}</li>                
+                <li>내용 : {props.comment}</li>                
             </ul>
-        
-        
-        
-        
-        
         </>
-
-
-
     );
 }

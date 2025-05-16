@@ -22,7 +22,7 @@ function Item02(props){
 
 */
 
-
+// 주의사항: 인자의 이름은 같아야 한다
 function Item02({title, content}){
 
     return(
