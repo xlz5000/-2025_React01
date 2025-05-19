@@ -1,3 +1,4 @@
+import { TextField } from '@mui/material';
 import './inputExam.css'
 
 export default function InputExam(){
@@ -6,7 +7,14 @@ export default function InputExam(){
         <div className="center">
             <input onFocus={()=>console.log("onFocus")}  
                    onBlur={()=>console.log("onBlur")}  
-            /><br /><br />            
+            /><br /><br />     
+            {/*  TextField 이벤트 처리는 onchange*/}
+            <TextField id="outlined-basic" label="Outlined" variant="outlined" 
+                onChange={(e) => console.log(e.target.value)}/>
+            <TextField id="filled-basic" label="Filled" variant="filled" 
+                onKeyUp={(e) => console.log(e.target.value + "," + e.key)}
+            />
+            <TextField id="standard-basic" label="Standard" variant="standard" />      
         </div>
 
         
